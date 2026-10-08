@@ -50,7 +50,7 @@ return [
             'bucket' => env('PUBLIC_BUCKET_NAME'),
             'url' => env('PUBLIC_BUCKET_URL'),
             'endpoint' => env('PUBLIC_BUCKET_ENDPOINT'),
-            'use_path_style_endpoint' => false,
+            'use_path_style_endpoint' => true,
             'throw' => false,
             'report' => false,
         ] : [
